@@ -5,6 +5,8 @@
 
 # Amp Terse Skill
 
+Lower tokens. Keep meaning.
+
 `compressing-amp-output` is an Amp skill for lower-token, lower-fluff coding sessions without full caveman-style grammar.
 
 It is designed for people who want:
@@ -61,12 +63,32 @@ Default thread opener:
 Use compressing-amp-output tight for this thread. Default to concise answers and short updates. Expand only for risk, ambiguity, or when I ask why.
 ```
 
+## Install Snippets
+
+Copy the skill folder into `.agents/skills/` in the workspace where you want to use it.
+
+### PowerShell
+
+```powershell
+New-Item -ItemType Directory -Force .agents\skills | Out-Null
+Copy-Item -Recurse -Force .\compressing-amp-output .\.agents\skills\
+```
+
+### Bash
+
+```bash
+mkdir -p .agents/skills
+cp -R ./compressing-amp-output ./.agents/skills/
+```
+
 ## Repository Layout
 
 - [`compressing-amp-output/SKILL.md`](compressing-amp-output/SKILL.md) - the skill itself
 - [`USER_GUIDE.md`](USER_GUIDE.md) - daily workflow and examples
 - [`CONTRIBUTING.md`](CONTRIBUTING.md) - contribution workflow
 - [`LICENSE`](LICENSE) - MIT license
+- [`PUBLISHING.md`](PUBLISHING.md) - GitHub publish steps and release notes
+- [`REPO_METADATA.md`](REPO_METADATA.md) - copy-ready repo description and tagline
 
 ## Install
 
@@ -88,6 +110,8 @@ If you are publishing this repo, the usual workflow is:
 1. Clone or copy the repo
 2. Copy `compressing-amp-output` into your target workspace `.agents/skills/`
 3. Start a new Amp thread and invoke the skill
+
+For publish-ready GitHub commands and metadata, see [`PUBLISHING.md`](PUBLISHING.md) and [`REPO_METADATA.md`](REPO_METADATA.md).
 
 ## Use
 
