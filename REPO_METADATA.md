@@ -12,6 +12,34 @@ Lower tokens. Keep meaning.
 
 Readable terse-output Amp skill for lower-token coding sessions. Tight and dense modes for implementation, debugging, and review.
 
+## GitHub About Section
+
+Description:
+
+```text
+Readable terse-output Amp skill for lower-token coding sessions. Tight and dense modes for implementation, debugging, and review.
+```
+
+Homepage suggestion:
+
+```text
+https://github.com/zuwasi/amp-terse-skill/blob/main/USER_GUIDE.md
+```
+
+If you do not want a docs link in the About panel, leave Homepage empty until you have a dedicated site.
+
+Suggested topics:
+
+- `amp`
+- `ampcode`
+- `ai`
+- `agent`
+- `prompt-engineering`
+- `developer-tools`
+- `productivity`
+- `llm`
+- `coding-assistant`
+
 ## One-Sentence Summary
 
 An Amp skill that cuts fluff and narration while keeping technical responses readable, exact, and safe.
